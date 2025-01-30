@@ -33,9 +33,13 @@ def loop_sum(n):
         int: Sum of numbers
     """
     result = 0
-    for num in range(n):
-        result += num+1
+    while n>0:
+        result += n
+        n -= 1
     return(result)
+    # for num in range(n):
+    #     result += num+1
+    # return(result)
 
 def list_operations(numbers):
     """
